@@ -19,14 +19,10 @@
 
 ## Sumber Gambar
 
-Semua gambar (logo, ilustrasi layanan, avatar tim) adalah ilustrasi SVG buatan sendiri di folder `img/`. Font: Poppins dari Google Fonts.
+Semua gambar diambil dari Pinterest.
 
 ## Kendala dan Cara Mengatasinya
 
 - **Menu tidak muat di HP:** navigasi dibuat vertikal di bawah logo dengan media query, lalu ditambah hamburger sebagai bonus.
 - **Kartu katalog terlalu sempit di HP:** grid diubah menjadi 1 kolom pada lebar 600px ke bawah.
 - **Gambar beda ukuran:** memakai `aspect-ratio` dan `object-fit` agar kartu seragam.
-
-## Catatan
-
-Bukti validasi W3C untuk keempat halaman disimpan di folder `bukti/`.
